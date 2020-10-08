@@ -6,8 +6,8 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "mrinfinity"
-                XCODE_SCHEME: "mrinfinity"
+                XCODE_WORKSPACE: "GoNativeIOS"
+                XCODE_SCHEME: "GoNativeIOS"
             xcode: latest
             cocoapods: default
         scripts:
